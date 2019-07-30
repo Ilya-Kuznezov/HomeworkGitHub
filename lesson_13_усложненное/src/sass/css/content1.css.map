@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../blocks/content1.sass"
+    ],
+    "names": [],
+    "file": "content1.css"
+}
