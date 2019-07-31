@@ -7,14 +7,14 @@
     padding-right: 139px
     &__title
       font-size: 41px
+      +bold
       /*font-weight: 500 */
       line-height: 55px
       margin-bottom: 40px
-      +bold
     &__subtitle
       display: inline-block
       font-size: 20px
-      font-weight: 500
+      +bold
       margin-bottom: 69px
   &-list
     margin: 0
@@ -34,6 +34,9 @@
       border: 2px solid $main-color
     &__text
       max-width: 223px
+      font-size: 14px
+      +reg
+      line-height: 24px
 @media (max-width: 1200px)
   .hero
     &-block
