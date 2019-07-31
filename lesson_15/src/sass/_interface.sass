@@ -1,0 +1,49 @@
+body
+  +reg 
+  /* font-family: 'Museo Sans Light' ,sans-serif */
+img
+  max-width: 100%
+h1
+  margin: 0
+  
+.container 
+  width: 1170px
+  margin: auto
+@media (max-width: 1200px)
+  .container
+    width: 760px
+  .hero
+    padding: 50px 0
+@media (max-width: 768px)
+  .container
+    max-width: 570px
+    width: 95%
+
+
+/* усложненное задание :)*/
+@media (max-width: 567px)
+  .container
+    width: 279px
+  .hero
+    padding: 0
+    &-text
+      &__title
+        margin: 20px 0
+    &-list
+      &__image
+        width: 40px
+        height: 40px
+        border: 2px solid #ffd200
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+
+.button
+  border-radius: 10px
+  background-color: $main-color
+  border: none
+  padding: 17px 32px
+  font-size: 13px
+  font-weight: 400
+
