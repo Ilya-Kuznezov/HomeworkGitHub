@@ -1,7 +1,9 @@
 body
   font-family: sans-serif
 img
-  max-width: 100%
+  max-width: 100% 
+h1
+  margin: 0
   
 .container 
   width: 1170px
@@ -9,15 +11,21 @@ img
 @media (max-width: 1200px)
   .container
     width: 760px
+  .hero
+    padding: 50px 0
 @media (max-width: 768px)
   .container
     max-width: 570px
     width: 95%
+  .hero
+    margin: 0
+    padding: 0
+
 
 /* усложненное задание :)*/
 @media (max-width: 567px)
   .container
-    width: 279px
+    width: 280px
 
 .button
   border-radius: 10px
