@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans/OpenSans-Regular.eot");
+  src: url("../fonts/OpenSans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bad Script';
+  src: url('../fonts/BadScript/BadScript-Regular.eot');
+  src: url('../fonts/BadScript/BadScript-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BadScript/BadScript-Regular.woff') format('woff'),
+    url('../fonts/BadScript/BadScript-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Regular';
+  src: url('../fonts/BebasRegular/BebasRegular.eot');
+  src: url('../fonts/BebasRegular/BebasRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BebasRegular/BebasRegular.woff') format('woff'),
+    url('../fonts/BebasRegular/BebasRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('../fonts/Lobster/Lobster.eot');
+  src: url('../fonts/Lobster/Lobster.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lobster/Lobster.woff') format('woff'),
+    url('../fonts/Lobster/Lobster.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-box {
+  padding-top: 2rem;
+}
+
+.result {
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+
+.fonts {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+small {
+  font-size: 1.3rem;
+}
+
+.type-open {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.type-bebas {
+  font-family: 'Bebas Regular', sans-serif;
+}
+
+.type-bad {
+  font-family: 'Bad Script', sans-serif;
+}
+
+.type-Lobster {
+  font-family: 'Lobster', sans-serif;
+}
