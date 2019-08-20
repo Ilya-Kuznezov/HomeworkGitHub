@@ -1,0 +1,82 @@
+.help
+  &-title
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 280px
+    background-color: $main-color
+    &__title
+      text-align: center
+      +reg
+      font-size: 32px
+      line-height: 50px
+  &-block
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    padding: 86px 0 140px
+  &-card
+    display: flex
+    flex-wrap: wrap
+    width: 370px
+    height: 410px
+    background-color: #f7f7f7
+    margin: 15px
+    &__title
+      padding: 22px 0 0 25px
+      +reg
+      width: 320px
+      font-size: 16px
+      line-height: 23px
+      &_bold
+        +bold
+    &__image
+      display: flex
+      align-items: flex-end
+      // height: 300px
+@media (max-width: 1200px)
+  .help
+    &-title
+      height: 250px
+@media (max-width: 996px)
+  .help
+    &-title
+      &__title
+        width: 600px
+        font-size: 26px
+        line-height: 40px
+@media (max-width: 567px)
+  .help
+    &-title
+      height: 231px
+      &__title
+        margin-top: 12px
+        margin-left: -2px
+        width: 260px
+        font-size: 18px
+        line-height: 22px
+        
+
+    &-block
+      padding: 44px 5px 64px 0
+    &-card
+      width: 272px
+      height: 300px
+      margin: 16px 0
+      &__style2
+        width: 277px
+        height: 307px
+        margin-right: 4px
+      &__style3
+        width: 275px
+        height: 305px
+        margin: 11px 5px 0 0
+      &__title
+        padding: 17px 0 0px 18px
+        font-size: 12px
+        line-height: 17px
+        width: 235px
+        &_padding2
+          padding: 16px 0 0px 25px
+          width: 245px
+          

@@ -1,0 +1,251 @@
+*
+  box-sizing: border-box
+  
+body
+  +reg 
+img
+  max-width: 100%
+h3
+  margin: 0
+.container 
+  width: 1171px
+  margin: auto
+.success
+  text-align: center
+
+@media (max-width: 1200px)
+  .container
+    width: 760px
+  .hero
+    padding: 50px 0
+
+@media (max-width: 768px)
+  .container
+    max-width: 570px
+    width: 95%
+
+/* усложненное задание :)*/
+@media (max-width: 567px)
+
+  .container
+    width: 279px
+  .hero
+    padding: 0
+    &-text
+      &__title
+        margin: 20px 0
+    &-list
+      &__image
+        width: 40px
+        height: 40px
+        border: 2px solid #ffd200
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+
+.button
+  border-radius: 10px
+  background-color: $main-color
+  border: none
+  padding: 17px 30px 17px 30px
+  font-size: 13px
+  +bold
+  &:hover
+    background-color: lighten($main-color, 10%)
+    cursor: pointer
+  &:focus
+    outline: none
+
+.section
+  &-title
+    font-size: 24px
+    +bold
+    text-align: center
+  &-subtitle
+    display: block
+    font-size: 16px
+
+.input
+  border: 1px solid $border-input
+  border-radius: 10px
+  padding: 23px 27px 
+  font-size: 15px
+  &:focus
+    outline: none
+    border: 1px solid $main-color
+    
+
+.arrows
+  &__left, &__right
+    &:hover
+      cursor: pointer
+
+
+#offer__form, #modal-form, #brif-form
+  position: relative
+
+.invalid
+  border-color: red
+  &:focus
+    outline: none
+    border: 1px solid #FF7D7D
+
+#username, #phone, #email
+  &-offer
+    &-error
+      position: absolute
+      font-size: 14px
+  &-modal
+    &-error
+      position: absolute
+      font-size: 14px
+  &-brif
+    &-error
+      position: absolute
+      font-size: 14px
+
+// ошибки блока modal
+#username-modal
+  &-error
+    top: 2%
+    left: 64%
+    color: red
+#phone-modal
+  &-error
+    top: 31%
+    left: 51%
+    color: red
+@media (max-width: 567px)
+  #username-modal
+    &-error
+      top: 2%
+      left: 54%
+      font-size: 12px
+  #phone-modal
+    &-error
+      top: 36%
+      left: 43%
+      font-size: 12px
+
+// ошибки блока offer
+#username-offer
+  &-error
+    top: 57%
+    left: 5%
+    
+#phone-offer
+  &-error
+    top: 57%
+    left: 48.5%
+    
+@media (max-width: 1200px)
+  #username-offer
+    &-error
+      top: 50%
+      left: 6%
+      font-size: 12px
+  #phone-offer
+    &-error
+      top: 60.5%
+      left: 7%
+      font-size: 12px
+@media (max-width: 768px)
+  #username-offer
+    &-error
+      top: 51%
+      left: 6%
+  #phone-offer
+    &-error
+      top: 63%
+      left: 6%
+@media (max-width: 567px)
+  #username-offer
+    &-error
+      top: 33.5%
+      left: 60.5%
+      color: red
+  #phone-offer
+    &-error
+      top: 46%
+      left: 45%
+      color: red
+
+// ошибки блока brif
+#username-brif
+  &-error
+    top: 17%
+    left: 7%
+#phone-brif
+  &-error
+    top: 38.5%
+    left: 7%
+#email-brif
+  &-error
+    top: 60%
+    left: 7%
+    
+@media (max-width: 1200px)
+  #username-brif
+    &-error
+      top: 17%
+      left: 7%
+  #phone-brif
+    &-error
+      top: 38.5%
+      left: 7%
+  #email-brif
+    &-error
+      top: 60%
+      left: 7%
+@media (max-width: 768px)
+  #username-brif
+    &-error
+      top: 17%
+      left: 18%
+  #phone-brif
+    &-error
+      top: 38.5%
+      left: 18%
+  #email-brif
+    &-error
+      top: 60%
+      left: 18%
+@media (max-width: 567px)
+  
+  #username-brif
+    &-error
+      color: red
+      top: 1%
+      left: 53%
+  #phone-brif
+    &-error
+      color: red
+      top: 41%
+      left: 36%
+  #email-brif
+    &-error
+      color: red
+      top: 21%
+      left: 58%
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px)
+  *    
+    &:hover
+      cursor: default
+  .arrows
+    &__left, &__right
+      &:hover
+        cursor: default
+  .button
+    &:hover
+      background-color: $main-color
+      cursor: default

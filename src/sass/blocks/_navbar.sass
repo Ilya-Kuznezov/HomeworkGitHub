@@ -1,0 +1,70 @@
+.navbar
+  padding: 6px 0 4px 0
+  &-block
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__info
+    display: flex
+    text-align: right
+  &__logo
+    margin-left: 2px
+  &__address
+    display: flex
+    flex-direction: column
+    margin-top: 4px
+    color: $text-color
+    font-size: 13px
+  &__button
+    margin: 0 0 6px 28px 
+    +bold
+  &__phone
+    display: inline-block
+    color: $text-color
+    +bold
+    font-size: 20px
+    text-decoration: none
+    margin-top: 6px
+
+/* медиа */
+@media (max-width: 768px)
+  .navbar
+    &__contacts
+      display: none
+    &__button
+      font-size: 12px
+      padding: 15px 25px 14px 25px
+      font-family: sans-serif
+      font-size: 11px
+      font-weight: 400
+    &__logo
+      width: 90px
+
+/* усложненное задание :)*/
+@media (max-width: 567px)
+  .navbar
+    &-block
+      display: flex
+      align-items: center
+      margin-top: 9px
+      margin-bottom: 10px
+    &__contacts
+      display: none
+    &__button
+      border-radius: 5px
+      margin: 0
+      margin: 0 2px 3px 30px
+      background-color: $main-color
+      color: $text-color
+      +bold
+      font-size: 10px
+      font-weight: 300
+      padding: 13px 26px 15px 26px
+    &__logo
+      width: 92px
+      margin: 1px 0 0 -2px 
+
+      
+
+
+ 
